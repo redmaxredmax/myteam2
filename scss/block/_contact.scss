@@ -1,0 +1,40 @@
+.contact {
+    background-color: #F67E7E;
+    background-image: url('../../img/footer.svg');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 76px;
+    padding-bottom: 95px;
+}
+
+.contact__title {
+    color: #012F34;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.contact__btn {
+    color: #012F34;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    padding: 8px 30px;
+}
+
+@media screen and (max-width:1225px) {
+    .contact__container {
+        flex-direction: column;
+    }
+    .contact__title{
+        margin-bottom: 24px;
+    }
+}

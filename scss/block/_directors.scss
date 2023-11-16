@@ -1,0 +1,120 @@
+.directors {
+    background-color: #004047;
+    background-image: url('../../img/directors_bg.svg'), url('../../img/directors_bg2.svg');
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+}
+
+.directors__container {
+    padding-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 168px;
+}
+
+.directors__opinion {
+    max-width: 254px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list1 {
+    margin-bottom: 48px;
+}
+
+.directors__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    max-width: 920px;
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.directors__list1 {
+    display: flex;
+    max-width: 1110px;
+    justify-content: space-between;
+}
+
+.directors__item {
+    padding: 32px 24px 56px 24px;
+    width: 350px;
+    background-color: #012F34;
+    position: relative;
+
+    &:hover{
+        background-color: #002529;
+    }
+}
+.icon2{
+    margin-top: 35px;
+}
+
+.directors__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.directors__name {
+    color: #79C8C7;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 302px;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.directors__job {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 302px;
+}
+
+.directors__icon {
+    position: absolute;
+    display: block;
+    margin-left: 123px;
+    margin-top: 28px;
+}
+.directors__icon2{
+    position: absolute;
+    display: block;
+    margin-left: 123px;
+    margin-top: 45px;
+}
+.directors__block {
+    column-gap: 48px;
+}
+.directors__social{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+.directors__icons{
+    display: block;
+}
+@media screen and (max-width:800px) {
+    .directors__icon{
+        max-width: 90px;
+    }
+    
+}
